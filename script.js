@@ -3,14 +3,16 @@ console.log('JS Connected');
 import gsap from "gsap";
 
 
-// Get a reference to the <g> element
-var myGroup = document.getElementById("Purple S");
-  
-// Get all child elements of the <g> element
-var groupChildren = myGroup.querySelectorAll("*");
 
-gsap.from('#Tetris',
+gsap.fromTo(document.getElementsByTagName('Tetris')[0],
 {
-    x: -500,
-    ease: "bounce",
-});
+    x: 50 
+}, 
+    {
+        x:100, duration:2, 
+        repeat:-1, 
+        yoyo:true
+    }
+        
+        
+        );

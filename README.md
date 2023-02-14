@@ -22,7 +22,7 @@ Soft drop1 per cellHard drop2 per cell
 
 # Controls 
 
-
+* to be implemented 
 
 # Citations
 * SVG sources
